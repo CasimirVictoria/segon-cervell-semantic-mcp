@@ -1,0 +1,24 @@
+{
+  "name": "semantic_search_notes",
+  "description": "Perform multilingual semantic vector search across all notes, Denote files (.org, .md), TFM chapters (.qmd), tasks, and plain text in your Second Brain. Returns exact file paths, line numbers, similarity scores, and matching section excerpts.",
+  "parameters": {
+    "properties": {
+      "query": {
+        "description": "Natural language query in Catalan, Spanish, or English (e.g. 'com reduir la bateria del mòbil', 'tramitació beques educatives', 'didàctica química FP', 'assegurança cotxe')",
+        "type": "string"
+      },
+      "scope": {
+        "description": "Search scope: 'all' (entire Second Brain), 'notes' (only ~/Documents/Segon_Cervell/Notes/), 'tfm' (only ~/Documents/Segon_Cervell/TFM/)",
+        "type": "string"
+      },
+      "top_k": {
+        "description": "Maximum number of semantic results to return (default: 5)",
+        "type": "integer"
+      }
+    },
+    "required": [
+      "query"
+    ],
+    "type": "object"
+  }
+}

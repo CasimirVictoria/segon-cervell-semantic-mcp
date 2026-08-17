@@ -1,0 +1,14 @@
+{
+  "name": "sync_semantic_index",
+  "description": "Incrementally indexes and updates vector embeddings for all new or modified .org, .md, .qmd, and .txt files in the Second Brain using FastEmbed and SQLite.",
+  "parameters": {
+    "properties": {
+      "force_rebuild": {
+        "description": "If true, rebuilds the entire vector index from scratch. Default is false (fast incremental sync).",
+        "type": "boolean"
+      }
+    },
+    "required": [],
+    "type": "object"
+  }
+}

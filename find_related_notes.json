@@ -1,0 +1,20 @@
+{
+  "name": "find_related_notes",
+  "description": "Given an existing note file path, analyzes its semantic vector and discovers conceptually related notes in the Second Brain for smart cross-linking (Zettelkasten).",
+  "parameters": {
+    "properties": {
+      "file_path": {
+        "description": "Absolute path to the note file (e.g. '/home/casimir/Documents/Segon_Cervell/Notes/20260817T082833--neteja-bloatware...org')",
+        "type": "string"
+      },
+      "top_k": {
+        "description": "Number of related notes to discover (default: 4)",
+        "type": "integer"
+      }
+    },
+    "required": [
+      "file_path"
+    ],
+    "type": "object"
+  }
+}
