@@ -57,9 +57,9 @@ Aquest MCP implementa una arquitectura basada en la **destil·lació prèvia del
 └─────────────────────────────────────────────────────────────┘
 ```
 
-### 🤝 Divisió de Rols (El Model 90/10):
-* **El 90% del dia a dia (Memòria Viva & Acció):** Es gestiona localment amb aquest MCP i models locals ràpids, consultant la memòria de notes destil·lades a cost zero.
-* **El 10% especialitzat (Recerca Bibliogràfica Massiva):** Es delega a plataformes de context llarg dedicades (com NotebookLM) per a l'anàlisi creuada de desenes de PDFs científics i citació acadèmica estricta (APA 7).
+### 🤝 Eficiència i Divisió de Rols:
+* **El gruix del treball quotidià (Memòria Viva & Coneixement Local):** Es resol de manera 100% autònoma i sobirana amb aquest MCP i models locals compactes (com Ollama / Qwen) a cost zero i màxima eficiència computacional.
+* **Casos específics d'alta complexitat:** Reservant la intervenció de grans models de llenguatge (LLM) avançats únicament per a tasques puntuals que requerisquen una gran capacitat de síntesi o finestres de context extenses.
 
 ---
 
